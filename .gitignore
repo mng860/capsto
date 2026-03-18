@@ -1,0 +1,23 @@
+# 의존성 패키지 (용량이 매우 크므로 깃허브에 올리지 않고, 배포 서버에서 npm install로 새로 설치함)
+node_modules/
+
+# 환경변수 및 비밀번호 정보 (보안상 절대 깃허브에 올라가면 안 됨)
+.env
+.env.*
+
+# 로컬에서 테스트하며 업로드된 유저 파일들
+uploads/
+
+# npm 로그 파일들
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS 생성 파일 (맥, 윈도우 등에서 자동 생성되는 찌꺼기 파일)
+.DS_Store
+Thumbs.db
+
+# 에디터 설정 파일 (VS Code 등)
+.vscode/
+.idea/
